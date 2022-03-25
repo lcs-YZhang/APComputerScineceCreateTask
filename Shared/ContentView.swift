@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            ZStack{
+                Image("LCSI")
+                    .resizable()
+                    .frame(width: 870.0, height: 955.0)
+                VStack{
+                    Text("""
+                  Welcom to
+                  Lakefield College School
+                  """)
+                        .font(.title)
+                        .fontWeight(.black)
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom, 100.0)
+                }
+            }
+        }
     }
 }
 
