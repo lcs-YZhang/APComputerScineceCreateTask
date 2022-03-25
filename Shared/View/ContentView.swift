@@ -24,6 +24,15 @@ struct ContentView: View {
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .padding(.bottom, 100.0)
+                    
+                    NavigationLink(destination: ListOfHouse()){
+                        Text("Start the Tour")
+                            .font(.title2)
+                            .foregroundColor(Color.white)
+                            .padding()
+                            .background(Color.green)
+                            .cornerRadius(15)
+                    }
                 }
             }
         }

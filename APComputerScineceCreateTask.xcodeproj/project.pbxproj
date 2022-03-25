@@ -13,6 +13,14 @@
 		FB4EC98A27EE153000E1DB2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC97827EE150700E1DB2F /* ContentView.swift */; };
 		FB4EC98B27EE153000E1DB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4EC97927EE153000E1DB2F /* Assets.xcassets */; };
 		FB4EC98C27EE153000E1DB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4EC97927EE153000E1DB2F /* Assets.xcassets */; };
+		FB4EC99827EE201100E1DB2F /* ListOfHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99727EE201100E1DB2F /* ListOfHouse.swift */; };
+		FB4EC99927EE201100E1DB2F /* ListOfHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99727EE201100E1DB2F /* ListOfHouse.swift */; };
+		FB4EC99B27EE202E00E1DB2F /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99A27EE202E00E1DB2F /* Segment.swift */; };
+		FB4EC99C27EE202E00E1DB2F /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99A27EE202E00E1DB2F /* Segment.swift */; };
+		FB4EC99E27EE205E00E1DB2F /* HouseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99D27EE205E00E1DB2F /* HouseList.swift */; };
+		FB4EC99F27EE205E00E1DB2F /* HouseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99D27EE205E00E1DB2F /* HouseList.swift */; };
+		FB4EC9A127EE22E000E1DB2F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */; };
+		FB4EC9A227EE22E000E1DB2F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,10 @@
 		FB4EC97E27EE153000E1DB2F /* APComputerScineceCreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APComputerScineceCreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4EC98427EE153000E1DB2F /* APComputerScineceCreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APComputerScineceCreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4EC98627EE153000E1DB2F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FB4EC99727EE201100E1DB2F /* ListOfHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfHouse.swift; sourceTree = "<group>"; };
+		FB4EC99A27EE202E00E1DB2F /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
+		FB4EC99D27EE205E00E1DB2F /* HouseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseList.swift; sourceTree = "<group>"; };
+		FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				FB4EC97727EE150700E1DB2F /* APComputerScineceCreateTaskApp.swift */,
-				FB4EC97827EE150700E1DB2F /* ContentView.swift */,
+				FB4EC99527EE1FC700E1DB2F /* Data */,
+				FB4EC99627EE1FCE00E1DB2F /* View */,
 				FB4EC97927EE153000E1DB2F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +89,25 @@
 				FB4EC98627EE153000E1DB2F /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		FB4EC99527EE1FC700E1DB2F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FB4EC99A27EE202E00E1DB2F /* Segment.swift */,
+				FB4EC99D27EE205E00E1DB2F /* HouseList.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FB4EC99627EE1FCE00E1DB2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB4EC97827EE150700E1DB2F /* ContentView.swift */,
+				FB4EC99727EE201100E1DB2F /* ListOfHouse.swift */,
+				FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4EC98927EE153000E1DB2F /* ContentView.swift in Sources */,
+				FB4EC99827EE201100E1DB2F /* ListOfHouse.swift in Sources */,
 				FB4EC98727EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */,
+				FB4EC99E27EE205E00E1DB2F /* HouseList.swift in Sources */,
+				FB4EC9A127EE22E000E1DB2F /* SearchBarView.swift in Sources */,
+				FB4EC99B27EE202E00E1DB2F /* Segment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +222,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4EC98A27EE153000E1DB2F /* ContentView.swift in Sources */,
+				FB4EC99927EE201100E1DB2F /* ListOfHouse.swift in Sources */,
 				FB4EC98827EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */,
+				FB4EC99F27EE205E00E1DB2F /* HouseList.swift in Sources */,
+				FB4EC9A227EE22E000E1DB2F /* SearchBarView.swift in Sources */,
+				FB4EC99C27EE202E00E1DB2F /* Segment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
