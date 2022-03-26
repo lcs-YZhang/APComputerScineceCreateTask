@@ -21,6 +21,8 @@
 		FB4EC99F27EE205E00E1DB2F /* HouseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99D27EE205E00E1DB2F /* HouseList.swift */; };
 		FB4EC9A127EE22E000E1DB2F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */; };
 		FB4EC9A227EE22E000E1DB2F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */; };
+		FB4EC9A427EF50D600E1DB2F /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A327EF50D600E1DB2F /* HouseView.swift */; };
+		FB4EC9A527EF50D600E1DB2F /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A327EF50D600E1DB2F /* HouseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		FB4EC99A27EE202E00E1DB2F /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 		FB4EC99D27EE205E00E1DB2F /* HouseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseList.swift; sourceTree = "<group>"; };
 		FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		FB4EC9A327EF50D600E1DB2F /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 			children = (
 				FB4EC97827EE150700E1DB2F /* ContentView.swift */,
 				FB4EC99727EE201100E1DB2F /* ListOfHouse.swift */,
+				FB4EC9A327EF50D600E1DB2F /* HouseView.swift */,
 				FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */,
 			);
 			path = View;
@@ -212,6 +216,7 @@
 				FB4EC99827EE201100E1DB2F /* ListOfHouse.swift in Sources */,
 				FB4EC98727EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */,
 				FB4EC99E27EE205E00E1DB2F /* HouseList.swift in Sources */,
+				FB4EC9A427EF50D600E1DB2F /* HouseView.swift in Sources */,
 				FB4EC9A127EE22E000E1DB2F /* SearchBarView.swift in Sources */,
 				FB4EC99B27EE202E00E1DB2F /* Segment.swift in Sources */,
 			);
@@ -225,6 +230,7 @@
 				FB4EC99927EE201100E1DB2F /* ListOfHouse.swift in Sources */,
 				FB4EC98827EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */,
 				FB4EC99F27EE205E00E1DB2F /* HouseList.swift in Sources */,
+				FB4EC9A527EF50D600E1DB2F /* HouseView.swift in Sources */,
 				FB4EC9A227EE22E000E1DB2F /* SearchBarView.swift in Sources */,
 				FB4EC99C27EE202E00E1DB2F /* Segment.swift in Sources */,
 			);

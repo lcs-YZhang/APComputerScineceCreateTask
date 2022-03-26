@@ -19,11 +19,13 @@ struct ListOfHouse: View {
                 ForEach(0..<searchList.count){ num in
                     if text == "" ||  searchList[num].houseName.lowercased().contains(text.lowercased()) {
                        
+                        NavigationLink(destination: HouseView(currentHouse: searchList[num])){
+                            Text(self.searchList[num].houseName)
+                        }
                     }
                 }
             }
         }
-        
     }
 }
 struct ListOfHouse_Previews: PreviewProvider {
