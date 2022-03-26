@@ -13,6 +13,8 @@ struct ListOfHouse: View {
     
     var body: some View {
         VStack {
+            Text("LCS Tour")
+            
             SearchBarView(text: $text)
             
             List{
@@ -30,6 +32,10 @@ struct ListOfHouse: View {
 }
 struct ListOfHouse_Previews: PreviewProvider {
     static var previews: some View {
-        ListOfHouse()
+        Group {
+            ListOfHouse()
+                .environment(\.sizeCategory, .extraLarge)
+            ListOfHouse()
+        }
     }
 }
