@@ -144,12 +144,12 @@ Susanna Moodie House opened upon the arrival of the first female students in Sep
                     Segment(title: "Matthews",
                             image: "Matthews",
                             text: """
-                            Heads of House:
-                            1987 - 1991: Alex McCubbin
-                            1991 - 1996: Richard Life
-                            1996 - 2001: David Walsh
-                            2001 - 2013: Todd Harris
-                            2013 - Present: Jim McGowan
+Heads of House:
+1987 - 1991: Alex McCubbin
+1991 - 1996: Richard Life
+1996 - 2001: David Walsh
+2001 - 2013: Todd Harris
+2013 - Present: Jim McGowan
 
 Matthews House was built in 1987. The architect of the house was Ross Kembar ‘53.
 It was named after former Headmaster Jack Matthews who joined the staff of Lakefield College School in 1952, coming in as a very successful businessman. In 1964, he was appointed Headmaster of the school, a position he thrived in until his departure in 1971. Throughout his 19 years at The Grove Mr. Matthews contributed greatly to both academics and athletics. Upon his arrival, he served as head of the science department and is credited with improving programming in this area. He had a particular interest in the waterfront activities and was head coach of the football team. His sons attended the school - Angus ‘71 and Tam ‘73.

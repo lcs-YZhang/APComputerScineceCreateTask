@@ -22,8 +22,8 @@ struct MapView: View {
                         Text(currentHouse.name)
                     }
             }
-            .navigationTitle("Map")
         }
+            .navigationTitle("Map")
     }
 }
 struct MapView_Previews: PreviewProvider {
