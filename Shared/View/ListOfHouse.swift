@@ -26,13 +26,13 @@ struct ListOfHouse: View {
                 }
             }
         }
+        .navigationTitle("Houses")
     }
 }
 struct ListOfHouse_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ListOfHouse()
-                .environment(\.sizeCategory, .extraLarge)
         }
     }
 }

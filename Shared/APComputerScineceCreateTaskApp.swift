@@ -11,7 +11,20 @@ import SwiftUI
 struct APComputerScineceCreateTaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                NavigationView {
+                    ListOfHouse()
+                }
+                .tabItem {
+                    Label("House", systemImage: "list.dash")
+                }
+                NavigationView {
+                    MapView()
+                }
+                .tabItem {
+                    Label("Map", systemImage: "map")
+                        }
+            }
         }
     }
 }
