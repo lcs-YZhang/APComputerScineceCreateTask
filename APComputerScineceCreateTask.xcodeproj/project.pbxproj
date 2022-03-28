@@ -11,6 +11,8 @@
 		FB26E3C727F231FC00070EFB /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB26E3C527F231FC00070EFB /* Annotation.swift */; };
 		FB26E3C927F233E600070EFB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB26E3C827F233E600070EFB /* MapView.swift */; };
 		FB26E3CA27F233E600070EFB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB26E3C827F233E600070EFB /* MapView.swift */; };
+		FB26E3CC27F2354E00070EFB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB26E3CB27F2354E00070EFB /* MainView.swift */; };
+		FB26E3CD27F2354E00070EFB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB26E3CB27F2354E00070EFB /* MainView.swift */; };
 		FB4EC98727EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC97727EE150700E1DB2F /* APComputerScineceCreateTaskApp.swift */; };
 		FB4EC98827EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC97727EE150700E1DB2F /* APComputerScineceCreateTaskApp.swift */; };
 		FB4EC98927EE153000E1DB2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC97827EE150700E1DB2F /* ContentView.swift */; };
@@ -32,6 +34,7 @@
 /* Begin PBXFileReference section */
 		FB26E3C527F231FC00070EFB /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 		FB26E3C827F233E600070EFB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FB26E3CB27F2354E00070EFB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FB4EC97727EE150700E1DB2F /* APComputerScineceCreateTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APComputerScineceCreateTaskApp.swift; sourceTree = "<group>"; };
 		FB4EC97827EE150700E1DB2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB4EC97927EE153000E1DB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +121,7 @@
 				FB4EC9A327EF50D600E1DB2F /* HouseView.swift */,
 				FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */,
 				FB26E3C827F233E600070EFB /* MapView.swift */,
+				FB26E3CB27F2354E00070EFB /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,6 +227,7 @@
 				FB4EC98927EE153000E1DB2F /* ContentView.swift in Sources */,
 				FB26E3C627F231FC00070EFB /* Annotation.swift in Sources */,
 				FB4EC99827EE201100E1DB2F /* ListOfHouse.swift in Sources */,
+				FB26E3CC27F2354E00070EFB /* MainView.swift in Sources */,
 				FB4EC98727EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */,
 				FB4EC99E27EE205E00E1DB2F /* HouseList.swift in Sources */,
 				FB4EC9A427EF50D600E1DB2F /* HouseView.swift in Sources */,
@@ -239,6 +244,7 @@
 				FB4EC98A27EE153000E1DB2F /* ContentView.swift in Sources */,
 				FB26E3C727F231FC00070EFB /* Annotation.swift in Sources */,
 				FB4EC99927EE201100E1DB2F /* ListOfHouse.swift in Sources */,
+				FB26E3CD27F2354E00070EFB /* MainView.swift in Sources */,
 				FB4EC98827EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */,
 				FB4EC99F27EE205E00E1DB2F /* HouseList.swift in Sources */,
 				FB4EC9A527EF50D600E1DB2F /* HouseView.swift in Sources */,
