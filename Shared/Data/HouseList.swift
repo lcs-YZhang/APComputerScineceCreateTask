@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Foundation
 import MapKit
 
 struct HouseContent : Identifiable {
@@ -297,7 +296,7 @@ Wadsworth House (originally named Ashelworth House) was one of the original buil
                  ]
     ),
     
-    HouseContent(houseName: "Lampman House (Health Centre)",
+    HouseContent(houseName: "Health Centre",
                  latitude: 44.439295,
                  longitude: -78.264485,
                  coordinate: CLLocationCoordinate2D(latitude: 44.439295, longitude: -78.264485),
@@ -318,7 +317,7 @@ Lampan house was built and designed by Win Lampan and her father. Win lived in L
                  ]
     ),
     
-    HouseContent(houseName: "Armstrong House & Brown House (Day Student)",
+    HouseContent(houseName: "Day Student House",
                  latitude: 44.440394,
                  longitude:  -78.265427,
                  coordinate: CLLocationCoordinate2D(latitude: 44.440394, longitude: -78.265427),
