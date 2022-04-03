@@ -9,6 +9,8 @@ import Foundation
 import MapKit
 
 struct HouseContent : Identifiable {
+  
+    
     
     var id = UUID()
     let houseName:String

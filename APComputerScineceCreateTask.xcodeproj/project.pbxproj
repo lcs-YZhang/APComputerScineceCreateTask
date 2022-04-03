@@ -13,16 +13,14 @@
 		FB4EC98827EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC97727EE150700E1DB2F /* APComputerScineceCreateTaskApp.swift */; };
 		FB4EC98B27EE153000E1DB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4EC97927EE153000E1DB2F /* Assets.xcassets */; };
 		FB4EC98C27EE153000E1DB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4EC97927EE153000E1DB2F /* Assets.xcassets */; };
-		FB4EC99827EE201100E1DB2F /* ListOfHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99727EE201100E1DB2F /* ListOfHouse.swift */; };
-		FB4EC99927EE201100E1DB2F /* ListOfHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99727EE201100E1DB2F /* ListOfHouse.swift */; };
 		FB4EC99B27EE202E00E1DB2F /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99A27EE202E00E1DB2F /* Segment.swift */; };
 		FB4EC99C27EE202E00E1DB2F /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99A27EE202E00E1DB2F /* Segment.swift */; };
 		FB4EC99E27EE205E00E1DB2F /* HouseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99D27EE205E00E1DB2F /* HouseList.swift */; };
 		FB4EC99F27EE205E00E1DB2F /* HouseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC99D27EE205E00E1DB2F /* HouseList.swift */; };
-		FB4EC9A127EE22E000E1DB2F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */; };
-		FB4EC9A227EE22E000E1DB2F /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */; };
 		FB4EC9A427EF50D600E1DB2F /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A327EF50D600E1DB2F /* HouseView.swift */; };
 		FB4EC9A527EF50D600E1DB2F /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EC9A327EF50D600E1DB2F /* HouseView.swift */; };
+		FBA85D7B27F75C2A006C6C23 /* ListOfHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA85D7A27F75C2A006C6C23 /* ListOfHouse.swift */; };
+		FBA85D7C27F75C2A006C6C23 /* ListOfHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA85D7A27F75C2A006C6C23 /* ListOfHouse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,11 +30,10 @@
 		FB4EC97E27EE153000E1DB2F /* APComputerScineceCreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APComputerScineceCreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4EC98427EE153000E1DB2F /* APComputerScineceCreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APComputerScineceCreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4EC98627EE153000E1DB2F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		FB4EC99727EE201100E1DB2F /* ListOfHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfHouse.swift; sourceTree = "<group>"; };
 		FB4EC99A27EE202E00E1DB2F /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 		FB4EC99D27EE205E00E1DB2F /* HouseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseList.swift; sourceTree = "<group>"; };
-		FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		FB4EC9A327EF50D600E1DB2F /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
+		FBA85D7A27F75C2A006C6C23 /* ListOfHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfHouse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +103,9 @@
 		FB4EC99627EE1FCE00E1DB2F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FB4EC99727EE201100E1DB2F /* ListOfHouse.swift */,
+				FBA85D7A27F75C2A006C6C23 /* ListOfHouse.swift */,
 				FB4EC9A327EF50D600E1DB2F /* HouseView.swift */,
 				FB26E3C827F233E600070EFB /* MapView.swift */,
-				FB4EC9A027EE22E000E1DB2F /* SearchBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,11 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4EC99827EE201100E1DB2F /* ListOfHouse.swift in Sources */,
 				FB4EC98727EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */,
 				FB4EC99E27EE205E00E1DB2F /* HouseList.swift in Sources */,
 				FB4EC9A427EF50D600E1DB2F /* HouseView.swift in Sources */,
-				FB4EC9A127EE22E000E1DB2F /* SearchBarView.swift in Sources */,
+				FBA85D7B27F75C2A006C6C23 /* ListOfHouse.swift in Sources */,
 				FB26E3C927F233E600070EFB /* MapView.swift in Sources */,
 				FB4EC99B27EE202E00E1DB2F /* Segment.swift in Sources */,
 			);
@@ -226,11 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4EC99927EE201100E1DB2F /* ListOfHouse.swift in Sources */,
 				FB4EC98827EE153000E1DB2F /* APComputerScineceCreateTaskApp.swift in Sources */,
 				FB4EC99F27EE205E00E1DB2F /* HouseList.swift in Sources */,
 				FB4EC9A527EF50D600E1DB2F /* HouseView.swift in Sources */,
-				FB4EC9A227EE22E000E1DB2F /* SearchBarView.swift in Sources */,
+				FBA85D7C27F75C2A006C6C23 /* ListOfHouse.swift in Sources */,
 				FB26E3CA27F233E600070EFB /* MapView.swift in Sources */,
 				FB4EC99C27EE202E00E1DB2F /* Segment.swift in Sources */,
 			);
@@ -290,6 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -343,6 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -365,7 +361,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -395,7 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
