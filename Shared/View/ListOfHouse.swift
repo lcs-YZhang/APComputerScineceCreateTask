@@ -9,21 +9,6 @@ import SwiftUI
 
 struct ListOfHouse: View {
     
-    @State private var flavours: [String] = ["Cooper",
-                                             "Grove",
-                                             "Upper & Lower Coleblock",
-                                             "Susanna Moodie",
-                                             "Matthews",
-                                             "Memorial",
-                                             "Ondaatje",
-                                             "Rashleigh",
-                                             "Ryder",
-                                             "Uplands",
-                                             "Wadsworth",
-                                             "Health Centre",
-                                             "Day Student House",
-    ]
-    
     @State private var searchTerm = ""
     
     var body: some View {
@@ -52,8 +37,6 @@ struct ListOfHouse: View {
         } else {
             
             // Return the filtered list
-            
-            // TODO: Delete lines 51 to 53 and replace with appropriate logic
             
             var newList:[HouseContent] = []
             for houseContent in originalList {
