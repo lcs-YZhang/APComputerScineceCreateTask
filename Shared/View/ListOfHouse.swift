@@ -1,5 +1,5 @@
 //
-//  Test.swift
+//  ListOfHouse.swift
 //  APComputerScineceCreateTask
 //
 //  Created by Steven Zhang on 2022-04-01.
@@ -28,7 +28,7 @@ struct ListOfHouse: View {
     
     func filter(originalList: [HouseContent], using term: String) -> [HouseContent] {
         
-        // User is not searching...
+        // User is not searching
         if term.isEmpty {
             
             // ...so return the original list
@@ -36,20 +36,18 @@ struct ListOfHouse: View {
             
         } else {
             
-            // Return the filtered list
-            
+
+            //User is searching
             var newList:[HouseContent] = []
             for houseContent in originalList {
                 if houseContent.houseName.contains(term) {
                     newList.append(houseContent)
                 }
             }
-            
+            // Return the filtered list
             return newList
         }
-        
     }
-    
 }
 
 struct ListOfHouse_Previews: PreviewProvider {
